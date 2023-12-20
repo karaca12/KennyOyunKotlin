@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 binding.textViewScore.text = "Score: ${score}"
             }
 
-            object : CountDownTimer(20000, 500) {
+            object : CountDownTimer(21000, 500) {
                 var counter = true
                 override fun onTick(millisUntilFinished: Long) {
                     counter != counter
